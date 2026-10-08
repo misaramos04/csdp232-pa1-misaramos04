@@ -30,3 +30,30 @@ h1, h2, h3 {
   background-color: rgb(240, 245, 243);
   border-left: 4px solid #0b4f45;
 }
+
+#intro {
+  margin-bottom: 2rem;
+}
+
+nav a {
+  color: #0b4f45;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card p {
+  line-height: 1.6;
+  color: rgb(55, 65, 81);
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav a:focus {
+  outline: 3px solid #0b4f45;
+}
+
+a[href^="http"] {
+  font-style: italic;
+}
