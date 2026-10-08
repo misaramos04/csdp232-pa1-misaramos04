@@ -1,0 +1,32 @@
+/* ==========================================================
+   PA1 - style.css
+   Author: <your name> (@<your-github-username>)
+
+   One stylesheet for every page. Organize it into sections
+   with comments, for example:
+     1. Page basics   2. Header and navigation   3. Content
+     4. Tables and lists   5. Footer
+   ========================================================== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: brown;
+    background-color: lightgrey;
+}
+
+h1, h2, h3 {
+    color: black;
+    text-align: center;
+}
+
+.card {
+  border: 1px solid rgb(201, 214, 210);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.featured {
+  background-color: rgb(240, 245, 243);
+  border-left: 4px solid #0b4f45;
+}
