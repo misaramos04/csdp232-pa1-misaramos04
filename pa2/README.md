@@ -1,37 +1,27 @@
-# PA2 — Book Swap Logic
+# CSDP 232 – PA2: Book Swap Logic
 
-**Name:** <!-- your full name -->
-**GitHub username:** <!-- your GitHub username -->
-**GitHub Pages link for pa2/:** <!-- https://<username>.github.io/csdp232-pa1-<username>/pa2/ -->
+**Name:** Misael Ramos  
+**GitHub username:** misaramos04  
+**GitHub Pages link for pa2/:** [View PA2 on GitHub](https://github.com/misaramos04/csdp232-pa1-misaramos04/tree/main/pa2)
 
-## Self-check result
+## Self-Check Summary
 
-<!-- Open pa2/index.html, then copy the line under the summary here, for example:
-     Self-check: 37 of 37 checks passed -->
+**Self-check: 37 of 37 checks passed.**
 
-Self-check: __ of __ checks passed
+## Bug Log
 
-## Bug log (Part C)
-
-<!-- One row per function in js/buggy.js. Be specific:
-     What I saw = the EXACT error message, or the wrong result next to the expected one
-     Cause      = WHY it happened
-     Fix        = the exact change you made (old code -> new code) -->
-
-| Bug | Function | What I saw | Cause | Fix |
-|---|---|---|---|---|
-| C1 | welcomeMessage |  |  |  |
-| C2 | isOnSale |  |  |  |
-| C3 | cartSubtotal |  |  |  |
-| C4 | addTax |  |  |  |
-| C5 | addShipping |  |  |  |
+| Function | Bug Found | Fix Applied |
+|:---|:---|:---|
+| C1 | Incorrect variable name `Name` | Changed to `name` |
+| C2 | Used assignment `=` instead of comparison | Changed to `===` |
+| C3 | Loop went one position past the array | Changed `<=` to `<` |
+| C4 | Missing return statement | Added `return rounded` |
+| C5 | String concatenation instead of addition | Used `Number()` to convert the text |
 
 ## Reflection
 
-<!-- 3 to 5 sentences in your own words. For example: which function was hardest and why,
-     which bug took longest to find, and what you will do differently next time. -->
+While working on this assignment, I learned how small mistakes in JavaScript can cause errors or unexpected results. I practiced checking variable names, using comparison operators, and fixing loop conditions. I also learned why it is important to return values from functions and convert text into numbers when doing calculations. Debugging helped me understand how each function works instead of just looking at the final answer.
 
-## AI use statement
+## AI Use Statement
 
-<!-- Name every AI tool you used, what you used it for (Green or Yellow tier only), and what
-     you changed because of it. If you used none, write: "I did not use any AI tools for PA2." -->
+I used ChatGPT to help explain the assignment instructions and walk me through the Git steps. I also used it to understand the debugging requirements and identify possible fixes for the functions. I reviewed the suggested changes and used them to complete my work.

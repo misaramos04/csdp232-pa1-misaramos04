@@ -10,39 +10,38 @@
    ========================================================== */
 
 
-// C1. Return "Welcome to Shore Book Swap, <name>!"
+/// C1
 function welcomeMessage(name) {
   const greeting = "Welcome to Shore Book Swap, ";
-  return greeting + Name + "!";
+  return greeting + name + "!";
 }
 
-// C2. Return true only when the condition is "fair", without changing the listing.
+// C2
 function isOnSale(listing) {
-  if (listing.condition = "fair") {
+  if (listing.condition === "fair") {
     return true;
   }
   return false;
 }
 
-// C3. Return the total of the prices in the cart; 0 for an empty cart.
+// C3
 function cartSubtotal(cart) {
   let total = 0;
-  for (let i = 0; i <= cart.length; i++) {
+  for (let i = 0; i < cart.length; i++) {
     total = total + cart[i].price;
   }
   return total;
 }
 
-// C4. Return the subtotal plus 6% Maryland sales tax, rounded to cents.
-//     addTax(100) -> 106
+// C4
 function addTax(subtotal) {
   const withTax = subtotal * 1.06;
   const rounded = Math.round(withTax * 100) / 100;
+  return rounded;
 }
 
-// C5. The subtotal arrives from a form as text. Return the subtotal plus $5
-//     shipping as a NUMBER.   addShipping("30") -> 35
+// C5
 function addShipping(subtotalText) {
   const shipping = 5;
-  return subtotalText + shipping;
+  return Number(subtotalText) + shipping;
 }

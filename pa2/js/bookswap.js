@@ -14,6 +14,8 @@
 
 /* ---------------- Part A: One Value at a Time ---------------- */
 
+/* ---------------- Part A: One Value at a Time ---------------- */
+
 // A1. Return the amount as a string with a dollar sign and exactly 2 decimals.
 function formatPrice(amount) {
   return "$" + amount.toFixed(2);
@@ -50,6 +52,7 @@ function canBuy(listing, budget) {
 }
 
 
+
 /* ---------------- Part B: Arrays and Objects ---------------- */
 
 // B5. Return the number of listings that are not sold.
@@ -76,6 +79,7 @@ function findListing(listings, id) {
 function listingsForCourse(listings, course) {
   return listings.filter(listing => listing.course === course);
 }
+
 
 // B8. Return an array of the TITLES of the listings the buyer can afford.
 function affordableTitles(listings, budget) {
